@@ -7,8 +7,8 @@
 "use strict";
 
 function greeting(name) {
-    console.log(name);
+    console.log(`Hello, ${name}!`);
 }
 const namestr = (prompt("Введите Ваше имя"));
-greeting(`Hello, ${namestr}!`);
+greeting(namestr);
 
